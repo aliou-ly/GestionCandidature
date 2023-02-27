@@ -13,6 +13,8 @@
         <members>Certificat</members>
         <members>Candidat</members>
         <members>Sexe</members>
+        <members>Matcher</members>
+        <members>MatcherTest</members>
         <name>ApexClass</name>
     </types>
     <version>57.0</version>

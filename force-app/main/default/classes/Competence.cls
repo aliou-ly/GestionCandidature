@@ -5,6 +5,7 @@
 public with sharing class Competence {
     private final String idCompetence;
     private String libelle;
+    private Integer niveau;
 
     public Competence(String id, String libelle) {
         this.idCompetence = id;
@@ -18,4 +19,10 @@ public with sharing class Competence {
     public void setLibelle(String libelle) {
         this.libelle = libelle;
     }
+
+    public void setNiveau(Integer niveau) {
+        this.niveau = niveau;
+    }
+
+    public Integer getNiveau() { return niveau; }
 }

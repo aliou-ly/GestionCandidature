@@ -11,7 +11,7 @@ public with sharing class Candidat {
     private List<Experience> experiences;
     private List<Langue> langues;
     private Adresse addresse;
-
+    private Candidat__c candidat;
     public Candidat(Sexe sexe, String nom, String prenom, String email, String telephone, Adresse adresse) {
         this.nom = nom;
         this.prenom = prenom;
@@ -24,6 +24,7 @@ public with sharing class Candidat {
         this.formations = new List<Formation>();
         this.certificats = new List<Certificat>();
         this.langues = new List<Langue>();
+
     }
 
     public String getNom() {

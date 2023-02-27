@@ -12,8 +12,6 @@ F
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
-]
--force-app/main/default/classes/Competence.cls,6/8/680f38b2bbb1d6b7f560e1ff169f43f1c500577b
 a
 1force-app/main/default/classes/CompetenceTest.cls,7/b/7bf14fa3d54eaa1bb4e97eefa4d6ef807b4dbfba
 f
